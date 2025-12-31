@@ -8,7 +8,7 @@ import Signup from './pages/Signup'
 import Department from './pages/Department'
 import Events from './pages/Events'
 import Institutes from './pages/Institutes'
-import Dashboard from './Dashboard'
+import Dashboard from './pages/Dashboard'
 
 function App() {
 

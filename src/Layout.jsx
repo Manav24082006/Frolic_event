@@ -5,7 +5,7 @@ function Layout() {
   return (
     <>
       {/* Header */}
-      <nav className="bg-gradient-to-r from-[#42047E] to-[#07F49E] px-6 py-4 shadow-lg sticky top-0 z-50">
+      <nav className="bg-gradient-to-r from-[#42047E] to-[#07F49E] px-6 py-4 shadow-lg sticky top-0 z-50 ">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center">
@@ -23,7 +23,7 @@ function Layout() {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               to="/"
-              className="text-white text-lg font-medium px-4 py-2 rounded-xl hover:bg-white/20 transition-all duration-300"
+              className="text-white text-lg font-medium px-4 py-2 rounded-xl hover:bg-green-400/20 transition-all duration-300"
             >
               Home
             </Link>
@@ -76,7 +76,50 @@ function Layout() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white mt-20">
+      <footer className="bg-gradient-to-r  from-gray-900 to-gray-800 text-white">
+
+      <section className="bg-gradient-to-r from-yellow-400 via-pink-500 to-red-500
+ border-t h-30 border-slate-200">
+  <div className="max-w-7xl mx-auto px-6 py-10">
+
+    <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+
+      {/* <!-- Minimal Logo + Title --> */}
+      <div className="flex items-center gap-3">
+        <div className="w-9 h-9 rounded-lg bg-slate-900 flex items-center justify-center">
+          <span className="text-white font-semibold text-sm">F</span>
+        </div>
+        <h3 className="text-lg font-semibold text-slate-900">
+          Frolic Event
+        </h3>
+      </div>
+
+      {/* <!-- Description --> */}
+      <p className="text-lg text-slate-200  max-w-2xl text-center md:text-left">
+        Frolic Event is a unified platform for managing cultural, technical, and
+        institutional events efficiently—built to simplify planning and execution
+        for educational institutes.
+      </p>
+
+      {/* <!-- Tags --> */}
+      <div className="flex gap-2 flex-wrap justify-center">
+        <span className="px-3 py-1 text-xs rounded-md bg-white border text-slate-600">
+          Events
+        </span>
+        <span className="px-3 py-1 text-xs rounded-md bg-white border text-slate-600">
+          Planning
+        </span>
+        <span className="px-3 py-1 text-xs rounded-md bg-white border text-slate-600">
+          Management
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
         <div className="max-w-7xl mx-auto px-6 py-16">
           <div className="grid md:grid-cols-4 gap-12">
             {/* About Frolic */}

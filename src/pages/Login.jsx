@@ -66,7 +66,7 @@ function Login() {
         </div>
       </div>
         <div className='border-2'>
-            <img src='https://img.freepik.com/free-psd/carnival-celebration-landing-page_23-2151149984.jpg?semt=ais_hybrid&w=740&q=80'/>
+            <img className='w-full' src='https://img.freepik.com/free-psd/carnival-celebration-landing-page_23-2151149984.jpg?semt=ais_hybrid&w=740&q=80'/>
         </div>
     </div>
     </div>
@@ -75,3 +75,74 @@ function Login() {
 }
 
 export default Login
+
+
+
+
+
+
+
+//  <div className="min-h-screen bg-cover bg-center flex justify-center items-center p-6"
+//       style={{
+//         backgroundImage:
+//           "url('//img.freepik.com/free-psd/carnival-celebration-landing-page_23-2151149984.jpg?semt=ais_hybrid&w=740&q=80')",
+//       }}
+//     >
+//       {/* Glassmorphism Card */}
+//       <div className="backdrop-blur-md bg-white/25 border border-white/40 rounded-xl shadow-2xl max-w-4xl w-full p-10 text-black">
+//         <h1 className="text-3xl font-bold mb-4">Login</h1>
+//         <p className="mb-6 text-gray-700">If you have an account, please login</p>
+
+//         <form className="space-y-4">
+//           <div>
+//             <label htmlFor="email" className="block mb-1 font-medium">
+//               Email Address
+//             </label>
+//             <input
+//               id="email"
+//               type="email"
+//               placeholder="Enter Email Address"
+//               className="w-full rounded-md border border-gray-300 p-2"
+//             />
+//           </div>
+//           <div>
+//             <label htmlFor="password" className="block mb-1 font-medium">
+//               Password
+//             </label>
+//             <input
+//               id="password"
+//               type="password"
+//               placeholder="Enter Password"
+//               className="w-full rounded-md border border-gray-300 p-2"
+//             />
+//           </div>
+//           <div className="text-right text-sm text-blue-600 hover:underline cursor-pointer">
+//             Forgot Password?
+//           </div>
+//           <button
+//             type="submit"
+//             className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 rounded-md transition"
+//           >
+//             Log In
+//           </button>
+//         </form>
+
+//         <div className="mt-6 text-center text-gray-600">OR</div>
+
+//         <button className="mt-6 w-full border border-gray-400 rounded-md py-3 flex items-center justify-center gap-2 text-gray-700 hover:bg-gray-100 transition">
+//           <img
+//             src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+//             alt="Google"
+//             className="w-5 h-5"
+//           />
+//           Login with Google
+//         </button>
+
+//         <div className="mt-6 text-center text-gray-600">
+//           If you don't have an account...{" "}
+//           <a href="#" className="text-blue-600 hover:underline font-semibold">
+//             Register
+//           </a>
+//         </div>
+//       </div>
+//     </div>

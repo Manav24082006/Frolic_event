@@ -5,7 +5,7 @@ function Home() {
     <>
       <div className='min-h-screen bg-gray-50'>
         {/* Hero section */}
-        <div className="relative bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmgF8uhC7o6A1vXBOf0a45bDY1CJMHbzerNg&s')] text-white py-20 h-96 w-full bg-cover bg-center bg-no-repeat">
+        <div className="relative bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmgF8uhC7o6A1vXBOf0a45bDY1CJMHbzerNg&s')] text-white py-20 h-162 w-full bg-cover bg-center bg-no-repeat">
           <div className="absolute inset-0 bg-black/40"></div>
           <div className='relative max-w-7xl mx-auto px-4 text-center z-10'>
             <h1 className='text-4xl font-bold md:text-5xl mb-6 drop-shadow-lg'>Welcome to Frolic Event Management System</h1>
